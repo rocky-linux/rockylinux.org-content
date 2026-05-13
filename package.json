@@ -1,0 +1,12 @@
+{
+  "name": "rockylinux.org-content",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Source content for rocky-linux/rockylinux.org. The website clones news/ from this repo at build time.",
+  "scripts": {
+    "validate": "node scripts/validate-news-content.mjs news/"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}
