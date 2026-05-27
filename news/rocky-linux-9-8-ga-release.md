@@ -86,7 +86,7 @@ Special recognition to these contributors for their work on this release:
 - Howard Van Der Wal (@metalinux)
 - Gabriel Graves (@nebraskacoder)
 - Leigh Hennig (@leigh)
-- Lukas Magauer (lumarel)
+- Lukas Magauer (@lumarel)
 - Michael Young (@elguero)
 - Mike Renfro (@mikerenfro)
 - Mustafa Gezen (@mustafa)
