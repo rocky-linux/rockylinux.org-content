@@ -80,6 +80,7 @@ Special recognition to these contributors for their work on this release:
 - Chris Stackpole (@stack)
 - Fredrik Nystrom (@nscfreny)
 - Jason Rodriguez (@jrod)
+- Jim Baresich  (@jb2592)
 - Jonathan Dieter (@jdieter)
 - Joey Brinkman (@j0ey)
 - Ken Carlile
