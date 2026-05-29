@@ -67,7 +67,7 @@ Flatpaks are now the default delivery method for **Mozilla Firefox** and **Mozil
 - Valgrind 3.26.0
 - SystemTap 5.4
 - elfutils 0.194
-- PCP 6.3.7
+- PCP 7.0.3
 
 **Infrastructure services:**
 
