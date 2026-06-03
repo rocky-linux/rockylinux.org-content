@@ -1,6 +1,8 @@
+---
 title: "Rocky Linux and the changing Secure Boot landscape: what you need to know"
 date: "2026-06-02"
 author: "Eric 'the IT Guy' Hendricks"
+---
 The Secure Boot ecosystem is going through a significant transition, and Rocky Linux is right there with it. This post covers the new Microsoft Certificate Authorities (CAs), why they matter, what a new Key Exchange Key (KEK) means for your systems, and what you need to do (or watch out for) as this rollout continues through 2026 and beyond.
 Why new CAs?
 The existing Microsoft 3rd Party UEFI CA that has signed third-party bootloaders, including shims for Linux distributions, expires in 2026. Microsoft has issued new CAs to replace it, and as part of that transition, they're also updating the UEFI Key Exchange Key (KEK) used in the Secure Boot chain of trust.
