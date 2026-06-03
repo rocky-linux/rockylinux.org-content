@@ -62,8 +62,7 @@ If your system only shows the 2011 CA, you're not yet ready for shims signed exc
 
 Many systems will receive the new CAs and KEK automatically through OEM firmware updates via fwupd or vendor utilities. On Linux-managed systems, the path depends entirely on your hardware vendor.
 
-**Do not attempt to manually enroll the new KEK or CAs unless you know exactly what you're doing and have a tested recovery path.
-**
+**Do not attempt to manually enroll the new KEK or CAs unless you know exactly what you're doing and have a tested recovery path.**
 
 Modifying UEFI Secure Boot variables (especially the KEK and Platform Key (PK)) carries real risk. An incorrect enrollment, a corrupted variable, or unexpected firmware behavior can leave a system that will not boot at all. Some firmware implementations handle this gracefully. Many do not.
 
