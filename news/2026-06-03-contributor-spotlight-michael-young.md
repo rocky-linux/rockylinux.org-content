@@ -50,8 +50,8 @@ GitHub: https://github.com/elguero
 
 LinkedIn: https://linkedin.com/in/mlyoung
 
-Bluesky: @elgueromexicano.bsky.social
+Bluesky: [@elgueromexicano.bsky.social](https://bsky.app/profile/elgueromexicano.bsky.social)
 
-Mastodon: @elgueromexicano@fosstodon.org
+Mastodon: [@elgueromexicano@fosstodon.org](https://fosstodon.org/@elgueromexicano)
 
 Want to share your own Rocky Linux story? Fill out our [Contributor Spotlight form](https://docs.google.com/forms/d/e/1FAIpQLScoRzo3OQ0Ts7F6ZTjr1cHNK4kMrg7kq04zOhyEkZFJlMumPg/viewform?usp=sharing&ouid=101517909847807858888) and we'll be in touch.
