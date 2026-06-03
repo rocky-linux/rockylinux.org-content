@@ -62,8 +62,7 @@ If your system only shows the 2011 CA, you're not yet ready for shims signed exc
 
 Many systems will receive the new CAs and KEK automatically through OEM firmware updates via fwupd or vendor utilities. On Linux-managed systems, the path depends entirely on your hardware vendor.
 
-**Do not attempt to manually enroll the new KEK or CAs unless you know exactly what you're doing and have a tested recovery path.
-**
+**Do not attempt to manually enroll the new KEK or CAs unless you know exactly what you're doing and have a tested recovery path.**
 
 Modifying UEFI Secure Boot variables (especially the KEK and Platform Key (PK)) carries real risk. An incorrect enrollment, a corrupted variable, or unexpected firmware behavior can leave a system that will not boot at all. Some firmware implementations handle this gracefully. Many do not.
 
@@ -84,7 +83,7 @@ This rollout will not happen overnight. Different hardware vendors will ship fir
 
 * Microsoft is rolling out new CAs (Windows UEFI CA 2023 and Microsoft Option ROM UEFI CA 2023) and a new KEK to replace certificates expiring in 2026
 * Rocky Linux is shipping dual-signed shims covering both the old and new CA; whether your firmware validates them depends on your hardware's PE multi-signature support
-* Check your enrolled CAs with mokutil --db or efi-readvar -v db before OEM firmware updates reach your systems
+* Check your enrolled CAs with `mokutil --db` or `efi-readvar -v db` before OEM firmware updates reach your systems
 * Do not manually enroll the new KEK or CAs without a vendor-supported path and a tested recovery plan
 * OEM firmware updates will roll out gradually through 2026 and beyond via tools like `fwupd`; this is not a single cutover event
 
