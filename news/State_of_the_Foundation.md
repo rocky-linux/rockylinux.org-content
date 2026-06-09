@@ -1,3 +1,9 @@
+---
+title: "State of the Foundation"
+date: "2026-06-10"
+author: "R. Leigh Hennig"
+---
+
 # State of the Foundation
 
 To the Rocky Linux Community, Sponsors, and Partners,
@@ -38,7 +44,7 @@ Our objective in implementing this framework is not a reorganization for its own
 
 ## Technical Goals and Enhancements
 
-There have already been a number of improvements the team has made this year, such as improving the accuracy of and automating the publication of errata. We also deployed new aarch64 hardware for the Testing team, reducing test runs from hours to minutes, significantly increasing the velocity of tests we can run.
+There have already been a number of improvements the team has made this year, such as improving the accuracy of and automating the publication of errata. We also deployed new aarch64 hardware for the Testing team, reducing test runs from hours to minutes, significantly increasing the velocity of tests we can run--but this is just the beginning.
 
 ### Infrastructure v2
 
@@ -46,9 +52,9 @@ We've learned a lot over the last several years as we built Rocky Linux. Reviewi
 
 We're taking a look at our infrastructure, which covers everything from access, accounting, and authentication, to storage, transport, and packaging, and designing a new, greenfield deployment with certain principles in mind from day one:
 
-- Automation: using infrastructure-as-code, every part of our environment should be deployed using standard, open source toolsets, such as Terraform, and Ansible
-- Reproducibility: the community should be able to replicate our environment as closely as possible with minimal effort
-- Simplicity: our infrastructure should not be needlessly complicated, and allow for many hands to possess expertise over each part of it
+- **Automation**: using infrastructure-as-code, every part of our environment should be deployed using standard, open source toolsets, such as Terraform, and Ansible
+- **Reproducibility**: the community should be able to replicate our environment as closely as possible with minimal effort
+- **Simplicity**: our infrastructure should not be needlessly complicated, and allow for many hands to possess expertise over each part of it
 
 ### New Secure Boot Environment
 
@@ -76,11 +82,11 @@ A project of this scale cannot thrive without a vibrant, empowered community. As
 
 Earlier this year we conducted a community survey, something we intend to do annually moving forward. You can read the details of that [here](https://rockylinux.org/news/2026-05-11-community-survey-2026-results), but what we saw showed we had gaps in our ability to onboard new contributors.
 
-We're working on a number of ways to address this, such as migrating and consolidating our documentation to [docs.rockylinux.org](http://docs.rockylinux.org), with a plan to deprecate the existing [wiki.rockylinux.org](http://wiki.rockylinux.org). This includes establishing new, comprehensive documentation for getting started, standardized contribution guidelines, and defining clear coding standards.
+We're working on a number of ways to address this, such as migrating and consolidating our documentation to [docs.rockylinux.org](https://docs.rockylinux.org), with a plan to deprecate the existing [wiki.rockylinux.org](https://wiki.rockylinux.org). This includes establishing new, comprehensive documentation for getting started, standardized contribution guidelines, and defining clear coding standards.
 
 ### Project Management Boards
 
-Each team has a new, publicly visible project board, tracking high-level issues that we're working on (the Security team is the exception to this–their board remains private), and you can find each of them here: [https://github.com/orgs/rocky-linux/projects](https://github.com/orgs/rocky-linux/projects)
+Each team has a new, publicly visible project board, tracking high-level issues that we're working on (the Security team is the exception to this–their board remains private), and you can find each of them [here](https://github.com/orgs/rocky-linux/projects).
 
 Issues may still be submitted to [https://git.resf.org](https://git.resf.org), the project boards track higher level efforts.
 
@@ -109,7 +115,7 @@ Our Vice President, Brian Clemens, attends numerous conferences small and large 
 
 ### Contributor Spotlight
 
-Our contributors are what have made, and continue to make, Rocky Linux a success. Every day people graciously donate their time, effort, and energy to everything from testing and community to security, release engineering, and documentation. That deserves recognition. Each month we're going to be featuring on our website and socials a contributor spotlight, highlighting an individual and their effort. June starts with Michael Young, with additional highlights to follow.
+Our contributors are what have made, and continue to make, Rocky Linux a success. Every day people graciously donate their time, effort, and energy to everything from testing and community to security, release engineering, and documentation. That deserves recognition. Each month we're going to be featuring on our website and socials a contributor spotlight, highlighting an individual and their effort. June starts with [Michael Young](https://rockylinux.org/news/2026-06-03-contributor-spotlight-michael-young), with additional highlights to follow.
 
 ### Call for Contributors
 
@@ -121,7 +127,7 @@ Over the coming days and weeks, we will be asking for contributors across our va
 - **Testing**: assist in building out Sparky and Kickstart tests for new builds, testing images on physical hardware
 - **Release Engineering**: fixes and patches for packaging as new builds are released
 
-We encourage you to review the open issues on each team's project board and contact us if you have an interest in contributing. Additional information on contributing and current efforts can be found here.
+We encourage you to review the open issues on each team's project board and contact us if you have an interest in contributing. Additional information on contributing and current efforts can be found [here](https://rockylinux.org/news/2026-06-08-get-involved-where-rocky-linux-needs-you).
 
 ## Sponsor Engagement
 
