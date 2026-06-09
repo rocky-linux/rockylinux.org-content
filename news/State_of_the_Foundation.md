@@ -111,7 +111,7 @@ Engaging the community in online spaces is vital, but we're always eager to meet
 - Supercompute, Chicago (November 15 - 20)
 - Open Source Experience, Paris (December 9 - 10)
 
-Our Vice President, Brian Clemens, attends numerous conferences small and large all around Japan. If you make it to one, there's a good chance you'll see him there.
+In addition to these, our Vice President, Brian Clemens, attends numerous conferences small and large all around Japan. If you make it to one, there's a good chance you'll see him there.
 
 ### Contributor Spotlight
 
@@ -119,19 +119,19 @@ Our contributors are what have made, and continue to make, Rocky Linux a success
 
 ### Call for Contributors
 
-Over the coming days and weeks, we will be asking for contributors across our various social channels, forums, and Mattermost chat. If you've ever felt like you had an interest in contributing but either didn't have the time, knowledge, or weren't sure where to begin, we hear you. If you want to help, there's room for you on each team. A few specific asks currently include:
+Over the coming days and weeks, we will be asking for contributors across our various social channels, forums, and Mattermost chat. If you've ever felt like you had an interest in contributing but either didn't have the time, knowledge, or weren't sure where to begin, we hear you. If you want to help, there's room for you on each team. A few specific needs currently include:
 
 - **Community**: Team deputies, Mattermost and IRC moderators, blog writers, and in-person event coordinators
 - **Documentation**: creating new guides, assisting each team in migrating from wiki.rockylinux to docs.rockylinux
 - **Design**: we're looking for everything from new designs for t-shirts and stickers to upcoming wallpaper submissions and event banners
-- **Testing**: assist in building out Sparky and Kickstart tests for new builds, testing images on physical hardware
-- **Release Engineering**: fixes and patches for packaging as new builds are released
+- **Testing**: assist in building out Sparky and Kickstart tests for new builds, testing images on physical hardware, and expertise with OpenQA and cloud testing
+- **Release Engineering**: fixes and patches for packaging as new builds are released and work with alternate architectures, such as RISC-V 
 
 We encourage you to review the open issues on each team's project board and contact us if you have an interest in contributing. Additional information on contributing and current efforts can be found [here](https://rockylinux.org/news/2026-06-08-get-involved-where-rocky-linux-needs-you).
 
 ## Sponsor Engagement
 
-The RESF would not be where it is today without the generous support of our sponsors. We are building, after all, a community *enterprise* operating system, and we recognize the important needs and contributions of our sponsors, partners, and users in government, academia, research, industry, and enterprise. We sincerely appreciate the support we receive, and we're working to ensure that even while we maintain independence, our sponsors, partners, and other supporting organizations are key parts of our community, and they deserve our support. Over the coming weeks, we will be reaching out to new and existing sponsors to recognize their contributions and demonstrate our commitment to our community members in these spaces. If your organization is interested in supporting Rocky Linux, we'd love to hear from you: please reach out to sponsor@resf.org.
+The RESF would not be where it is today without the generous support of our sponsors. We are building, after all, a community *enterprise* operating system, and we recognize the important needs and contributions of our sponsors, partners, and users in government, academia, research, industry, and enterprise. We're grateful for the support we receive. While we maintain our independence, our sponsors, partners, and supporting organizations are an integral part of our community--and that support goes both ways. Over the coming weeks, we will be reaching out to new and existing sponsors to recognize their contributions and demonstrate our commitment to our community members in these spaces. If your organization is interested in supporting Rocky Linux, we'd love to hear from you: please reach out to sponsor@resf.org.
 
 ## Special Thanks and Recognition
 
