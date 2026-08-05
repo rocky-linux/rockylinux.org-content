@@ -36,6 +36,8 @@ Previously, we had to manually add modular metadata directly into a git reposito
 
 The post-compose staging sync dropped from 3–4 hours down to 20–25 minutes. The full compose/sync process went from 4–5 hours down to roughly 1.5 hours. As a bonus, module-related mistakes should be greatly reduced too.
 
+Where this has helped is when a compose has failed to run automatically (due to unsigned packages or other issues), and we've needed to trigger a manual compose. We had to do that recently to get some kernels out over the weekend, a process that took under two hours with the improvements made, rather than up to the 12 hours it would have taken previously.
+
 We'd still like to make the compose process scale linearly with the size of the package updates, but that's a longer-term project. For now, we'll take the win we've got.
 
 For more detail, see the [tracking issue on GitHub](https://github.com/rocky-linux/releng/issues/48).
