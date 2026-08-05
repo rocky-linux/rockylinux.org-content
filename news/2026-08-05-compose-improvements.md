@@ -20,11 +20,9 @@ We use a tool called Pungi to take all the latest packages in Koji and turn them
 
 This is where we copy the compose into staging, regenerate the metadata users pull to get updates, grab the security errata, and sign all the metadata. This should have been fast, even across all the repositories we ship per major release.
 
-## Finding the Bottleneck
+## Removing the Bottleneck
 
 Further investigation revealed that one step — regenerating the metadata — was taking the bulk of the time. Here's why: we copy the new packages and metadata into the staging path, but then have to regenerate the metadata so it includes the old packages too. You can reduce the number of packages checked by passing `--update` to `createrepo_c` (the tool that generates metadata from packages in a directory), which only looks at packages not already in the metadata — but that's still every package updated in the past. Across all repositories and architectures, that added up to over three hours.
-
-## The Fix
 
 We already had the metadata for the old packages sitting in the staging tree, so the logical fix was to merge the compose and staging tree metadata directly. That's what we've done.
 
@@ -34,11 +32,9 @@ We did have to write new libraries to handle merging modular metadata, since `me
 
 Previously, we had to manually add modular metadata directly into a git repository, since there was no easy way to combine it. That process was error-prone — most of the modularity issues Rocky has hit in the last few months trace back to mistakes made adding modules to the repo. Now, our new module-merging code bypasses the git repo altogether and merges the compose metadata directly with what's already in staging.
 
-## The Results
+## Efficiencies Gained
 
 The post-compose staging sync dropped from 3–4 hours down to 20–25 minutes. The full compose/sync process went from 4–5 hours down to roughly 1.5 hours. As a bonus, module-related mistakes should be greatly reduced too.
-
-## What's Next
 
 We'd still like to make the compose process scale linearly with the size of the package updates, but that's a longer-term project. For now, we'll take the win we've got.
 
