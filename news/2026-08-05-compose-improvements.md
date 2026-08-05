@@ -26,5 +26,5 @@ The end result of this work is staggering. The post-compose staging sync has gon
 
 There are further changes we would like to achieve with the compose process so the time scales linearly with the size of the packages being updated, but those will be longer term projects. For now, we’ll take the win that we’ve got!
 
-For detail on the project, you can see the issue we used to track this work [here](https://github.com/rocky-linux/releng/issues/48).
+For details on the project, you can see the issue we used to track this work [here](https://github.com/rocky-linux/releng/issues/48).
 
