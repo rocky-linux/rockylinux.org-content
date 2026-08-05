@@ -1,5 +1,5 @@
 ---
-title: "Improvements to Our Compose Process to Reduce Build Times by Hours"
+title: "Speeding Up Rocky Linux's Build-to-Staging Pipeline"
 date: "2026-08-05"
 author: "Jonathan Dieter"
 ---
