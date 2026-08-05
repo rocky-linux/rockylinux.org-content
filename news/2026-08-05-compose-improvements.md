@@ -6,39 +6,25 @@ author: "Jonathan Dieter"
 
 # Speeding Up Rocky Linux's Build-to-Staging Pipeline
 
-One of the issues we've been struggling with when pushing out updates is the time it takes to get updates out of Koji, our build system, and into our staging repositories. The process was taking four to five hours, which seemed excessive given that it's really just copying new packages into staging.
+One of the issues we’ve been struggling with when pushing out updates is the time that it takes to get the updates out of koji, our build system, and into our staging repositories. The process was taking between four and five hours, which seemed excessive, given that you’re really just copying the new packages into staging.
 
 ## The Old Process
+The process we used was split into two parts, and the first was fairly straightforward. We use a tool called pungi to take all the latest packages in koji and turn them into a “compose,” a collection of packages split into separate repositories. Note that a compose only contains the latest packages, so work still needs to be done to get the packages into staging, where we also keep all the old packages from the current minor release. The compose takes about an hour to generate, and can’t be changed without some major architectural changes.
 
-The workflow was split into two parts.
+The second part of the process is the post-compose staging sync, where we were copying the compose into staging, regenerating the metadata users pull to get updates, grabbing the security errata for this update, and then signing all the metadata. This should have been straightforward and relatively fast, even for all the repositories we ship per major release. 
 
-### Part 1: Compose Generation
-
-We use a tool called Pungi to take all the latest packages in Koji and turn them into a "compose" — a collection of packages split into separate repositories. A compose only contains the latest packages, so more work is still needed to get them into staging, where we also keep all the old packages from the current minor release. Generating the compose takes about an hour and can't be changed without major architectural changes.
-
-### Part 2: Post-Compose Staging Sync
-
-This is where we copy the compose into staging, regenerate the metadata users pull to get updates, grab the security errata, and sign all the metadata. This should have been fast, even across all the repositories we ship per major release.
+Further investigation revealed that just one step, regenerating the metadata, was taking the bulk of that time. The reason lies in the process. We copy the new packages and metadata into the staging path, but then have to regenerate the metadata so it includes the old packages as well. You can reduce the number of packages being checked by passing the `--update` flag to `createrepo_c` (the tool which actually generates the metadata from the packages in the directory), which will only look at packages that aren’t already in the metadata, but that’s still every single package that has been updated in the past, and that’s why across all the repositories and all the architectures, it was taking over three hours.
 
 ## Removing the Bottleneck
+One of the things we recognized was that we already had the metadata for the old packages in the staging tree. So the most logical fix was to just go and merge the compose and staging tree metadata, and that’s what we’ve done. We did have to write some libraries to handle merging the modular metadata as `mergerepo_c` (the tool which does repository merging) doesn’t support that, but that turned out to be another bonus from this work.
 
-Further investigation revealed that one step — regenerating the metadata — was taking the bulk of the time. Here's why: we copy the new packages and metadata into the staging path, but then have to regenerate the metadata so it includes the old packages too. You can reduce the number of packages checked by passing `--update` to `createrepo_c` (the tool that generates metadata from packages in a directory), which only looks at packages not already in the metadata — but that's still every package updated in the past. Across all repositories and architectures, that added up to over three hours.
-
-We already had the metadata for the old packages sitting in the staging tree, so the logical fix was to merge the compose and staging tree metadata directly. That's what we've done.
-
-We did have to write new libraries to handle merging modular metadata, since `mergerepo_c` (the tool that handles repository merging) doesn't support that — but that turned into an unexpected bonus.
-
-### A Side Benefit: Fewer Modularity Mistakes
-
-Previously, we had to manually add modular metadata directly into a git repository, since there was no easy way to combine it. That process was error-prone — most of the modularity issues Rocky has hit in the last few months trace back to mistakes made adding modules to the repo. Now, our new module-merging code bypasses the git repo altogether and merges the compose metadata directly with what's already in staging.
+### A side Benefit: Fewer Modularity Mistakes
+Previously, we had to manually add the modular metadata directly into a git repository because there was no easy way to combine it, and the process was prone to error (most of the modularity issues we’ve had in Rocky in the last few months were due to mistakes when adding modules to the repo). Now, with our new module merging code, we bypass the git repo altogether and just merge what’s in the compose with what is already in staging.
 
 ## Efficiencies Gained
+The end result of this work is staggering. The post-compose staging sync has gone from 3 - 4 hours all the way down to 20 - 25 minutes. The full compose/sync process has gone from 4 - 5 hours down to roughly 1.5 hours. And, as a bonus, mistakes in the modules should be greatly reduced.
 
-The post-compose staging sync dropped from 3–4 hours down to 20–25 minutes. The full compose/sync process went from 4–5 hours down to roughly 1.5 hours. As a bonus, module-related mistakes should be greatly reduced too.
+There are further changes we would like to achieve with the compose process so the time scales linearly with the size of the packages being updated, but those will be longer term projects. For now, we’ll take the win that we’ve got!
 
-Where this has helped is when a compose has failed to run automatically (due to unsigned packages or other issues), and we've needed to trigger a manual compose. We had to do that recently to get some kernels out over the weekend, a process that took under two hours with the improvements made, rather than up to the 12 hours it would have taken previously.
-
-We'd still like to make the compose process scale linearly with the size of the package updates, but that's a longer-term project. For now, we'll take the win we've got.
-
-For more detail, see the [tracking issue on GitHub](https://github.com/rocky-linux/releng/issues/48).
+For detail on the project, you can see the issue we used to track this work [here](https://github.com/rocky-linux/releng/issues/48).
 
