@@ -1,6 +1,6 @@
 ---
 title: "Help Manage Rocky Linux Torrents"
-date: "2026-06-08"
+date: "2026-08-11"
 author: "Eric ‘the IT Guy’ Hendricks"
 ---
 Every Rocky Linux release is a coordinated effort across engineering, testing, and infrastructure. One piece of that process that needs a dedicated owner is torrent management, and we are looking for someone to take it on.
