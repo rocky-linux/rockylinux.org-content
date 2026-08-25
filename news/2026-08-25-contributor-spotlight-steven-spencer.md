@@ -6,6 +6,9 @@ author: "R. Leigh Hennig"
 
 One of the most neglected parts of any project is its documentation. It doesn't draw as much attention during development cycles as engineering or development, yet the absence of solid documentation is something every contributor, developer, and user has felt keenly. More than frustrating, it's potentially a blocker to project adoption when documentation is insufficient (or sometimes lacking entirely). Developing and maintaining proper documentation is a challenge we're all familiar with, but Rocky Linux has a secret weapon in this regard: Steven Spencer, and the rest of the Documentation team. 
 
+A former network and systems administrator now retired, Steven lives in Grand Island, NE. Find him on our [Mattermost](https://chat.rockylinux.org) as @sspencerwire.
+
+
 ## Steven's Rocky Linux Story
 ### How long have you been contributing to Rocky Linux?
 I came into the project in January 2021 immediately following retirement.
