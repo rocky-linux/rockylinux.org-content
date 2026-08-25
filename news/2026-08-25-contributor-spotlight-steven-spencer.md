@@ -8,6 +8,7 @@ One of the most neglected parts of any project is its documentation. It doesn't 
 
 A former network and systems administrator now retired, Steven lives in Grand Island, NE. Find him on our [Mattermost](https://chat.rockylinux.org) as @sspencerwire.
 
+
 ## Steven's Rocky Linux Story
 ### How long have you been contributing to Rocky Linux?
 I came into the project in January 2021 immediately following retirement.
