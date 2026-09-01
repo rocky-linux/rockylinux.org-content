@@ -17,4 +17,7 @@ Of the work that all of our teams do, perhaps the most visible is that of the Co
 And more!
 
 If any of this sounds interesting to you, if you'd like to be a part of the team building one of the best open source community operating system in the world, let's talk! 
-Find us in our [Mattermost chat](https://chat.rockylinux.org) or send a note to community@rockylinux.org.
+
+The best way to apply is to fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdEohWHI-5bPwdTUPMP3w7Y_hMczgN6pECQb3tX0vz3DpMHCg/viewform?usp=dialog). 
+
+You can also find us in our [Mattermost chat](https://chat.rockylinux.org) or send a note to community@rockylinux.org.
