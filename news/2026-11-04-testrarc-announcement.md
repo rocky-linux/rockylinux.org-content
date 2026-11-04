@@ -1,5 +1,5 @@
 ---
-title: "Rocky Linux is pleased to announce Testarc"
+title: "Rocky Linux is pleased to announce Testrarc"
 date: "2026-11-04"
 author: "Chris Stackpole (@Stack)"
 ---
