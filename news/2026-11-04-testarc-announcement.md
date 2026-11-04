@@ -27,7 +27,7 @@ Please join the Testing Team channel on [Mattermost](https://chat.rockylinux.org
 
 Feedback, issues, and code can all be given and explored at the [Git page](https://git.resf.org/testing/testrarc).
 
-Release criteria, test cases, and additional information can be found on the Testing team's [documentation](https://docs.rockylinux.org/teams/testing/documentation/qa_test_cases/)page.
+Release criteria, test cases, and additional information can be found on the Testing team's [documentation](https://docs.rockylinux.org/teams/testing/documentation/qa_test_cases/) page.
 
 ## Special thanks
 We're grateful to the Rocky members, volunteers, and teams that made this happen. 
