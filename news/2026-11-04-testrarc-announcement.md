@@ -4,7 +4,7 @@ date: "2026-11-04"
 author: "Chris Stackpole (@Stack)"
 ---
 
-# Rocky Linux is pleased to announce [Testrarc!](https://testrarc.rockylinux.org)
+# Introducing [Testrarc](https://testrarc.rockylinux.org)
 
 The goal of each Rocky Linux release is to be a binary compatible enterprise operating system that delivers a trusted platform for our users. The process from source to release goes through many volunteer community teams, undergoing meticulous checking and validation for each release candidate. 
 
