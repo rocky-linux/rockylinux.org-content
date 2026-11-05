@@ -1,3 +1,8 @@
+---
+title: "Migrating Wiki to Docs"
+date: "2026-11-05"
+author: "R. Leigh Hennig"
+---
 # Achievement Unlocked: Consolidating and Migrating Our Documentation
 
 Like all projects, Rocky Linux relies on good documentation. It’s the key to easing adoption of Rocky as an operating system for users, and for onboarding new contributors and maintainers. 
@@ -28,4 +33,3 @@ By consolidating our public-facing documentation to a single site, we've simplif
 Special thanks is owed to the Documentation team and to the leads Wale Soyinka and Steven Spencer, without which this enormous undertaking would not have been possible.
  
 Contributors are welcome to join the [~Documentation](https://chat.rockylinux.org/rocky-linux/channels/documentation) team channel on our Mattermost server, and those interested in translation can participate in our [~Localization](https://chat.rockylinux.org/rocky-linux/channels/l10n) channel.
-
