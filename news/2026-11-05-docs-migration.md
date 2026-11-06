@@ -1,6 +1,6 @@
 ---
 title: "Migrating Wiki to Docs"
-date: "2026-11-05"
+date: "2026-11-06"
 author: "R. Leigh Hennig"
 ---
 # Achievement Unlocked: Consolidating and Migrating Our Documentation
@@ -15,7 +15,7 @@ Separately, the Documentation team has long managed Docs as the repository for p
 While each site was intended to serve a different purpose, we’ve found that maintaining two repositories of information has not scaled well as the project has grown. Often users had confusion about where to store or search for information. Over time, it became apparent that we needed to simplify our process for accessing, creating, and working with our documentation. 
 After considering the user and contributor experience for both English and non-native speakers alike, we began the effort to deprecate Wiki in favor of Docs.
 
-When evaluating how to reconcile our different documentation platforms, a top priority was making it as easy as possible for people to contribute. Easing the friction of creating and maintaining documentation is critical to this effort, and removing as many barriers to this as possible is what helps to ensure the highest quality documentation is easy to both produce and consume. User feedback made it apparent that working with the Docs platform was easier than working with underpinned Wiki.
+When evaluating how to reconcile our different documentation platforms, a top priority was making it as easy as possible for people to contribute. Easing the friction of creating and maintaining documentation is critical to this effort, and removing as many barriers to this as possible is what helps to ensure the highest quality documentation is easy to both produce and consume. User feedback made it apparent that working with the Docs platform was easier than working with what underpinned Wiki.
 
 Used by millions of people around the world, one of the fantastic strengths of Rocky Linux is our community, including all the many non-English speaking users and contributors. Localization has long been a cornerstone of our build effort, and we are proud to have an incredibly diverse and dedicated group of translators helping to make using Rocky possible for everyone around the world. 
 
