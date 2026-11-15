@@ -130,7 +130,7 @@ Listed below are security-related highlights in the latest RL 9.9:
 
 As with any release, there are many known issues. Review the [upstream listing](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/9.9_release_notes/known-issues) for the complete details on these issues.
 
-- OpenZFS 2.2.x fails to build on CentOS Stream 9 kernel 5.14.0-756.el9.x86_64 due to incorrect dentry alias compatibility mapping. For more information, see open issue [#19369](https://github.com/openzfs/zfs/issues/19369)
+- OpenZFS 2.2.x was found to be failing on Rocky 9.9. For more information, see open upstream issue [#19369](https://github.com/openzfs/zfs/issues/19369).
 
 !!! info "Deprecated Software"
 
@@ -166,7 +166,6 @@ Special thanks to the following contributors for their efforts in this release:
 - Stephen Simpson (@ssimpson)
 - Steven Spencer (@sspencerwire)
 - Taylor Goodwill (@tgo)
-- Tuan Hoang (@tqhoang)
 - Trevor Cooper (@tcooper)
 - Wale Soyinka (@wale)
 
