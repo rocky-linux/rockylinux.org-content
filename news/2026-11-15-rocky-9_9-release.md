@@ -180,4 +180,4 @@ Special thanks to the following contributors for their efforts in this release:
 - Trevor Cooper (@tcooper)
 - Wale Soyinka (@wale)
 
-Finally, we appreciate our Enterprise Linux ecosystem: the upstream development work of Fedora Linux, the curation work in CentOS Stream, and the many, many additional developers of projects that make up our distribution.
+Finally, we appreciate our Enterprise Linux ecosystem: the upstream development work of Fedora Linux, the curation work in CentOS Stream, Red Hat, and the many, many additional developers of projects that make up our distribution.
