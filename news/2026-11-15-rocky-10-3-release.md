@@ -109,37 +109,25 @@ We extend our deepest thanks to the Rocky Linux project volunteers and leaders f
 
 Special thanks to the following contributors for their efforts in this release:
 
-- Alan Marshall (@alangm)
 - Alexey Melezhik (@melezhik)
-- Arian Acabrera (@acabrera)
 - Bob Robison (@grayeul)
-- Boris Reisig (@boris)
 - Brian Clemens (@brian)
 - Bryan Zuelly (@codedude)
 - Chris Stackpole (@stack)
 - Fredrik Nystrom (@nscfreny)
-- Jason Rodriguez (@jrod)
-- Jim Baresich  (@jb2592)
 - Jonathan Dieter (@jdieter)
-- Joey Brinkman (@j0ey)
-- Ken Carlile
 - Howard Van Der Wal (@metalinux)
 - Gabriel Graves (@nebraskacoder)
 - Leigh Hennig (@leigh)
 - Lukas Magauer (@lumarel)
 - Michael Young (@elguero)
-- Mike Renfro (@mikerenfro)
 - Mustafa Gezen (@mustafa)
-- Nathan B (@kemotaha)
-- Sam Thornton (@sthornton)
 - Scott Shinn (@atomicturtle)
 - Sherif Nagy (@sherif)
 - Skip Grube (@skip77)
 - Stephen Simpson (@ssimpson)
 - Steven Spencer (@sspencerwire)
 - Taylor Goodwill (@tgo)
-- Thomas Doczkal
-- Tuan Hoang (@tqhoang)
 - Trevor Cooper (@tcooper)
 - Wale Soyinka (@wale)
 
