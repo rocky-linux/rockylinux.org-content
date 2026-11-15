@@ -6,7 +6,7 @@ author: "R. Leigh Hennig"
 
 ## Rocky Linux 9.9 Now Available
 
-The Rocky Linux team is pleased to announce the general availability of **Rocky Linux 9.9**. Updated installation media, container, cloud, development board, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage.
+The Rocky Linux team is pleased to announce the general availability of **Rocky Linux 9.9**. Updated installation media, container, cloud, development board, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. 
 
 ## Upgrading
 
