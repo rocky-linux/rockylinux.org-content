@@ -6,7 +6,7 @@ author: "R. Leigh Hennig"
 
 ## Rocky Linux 9.9 Now Available
 
-The Rocky Linux team is pleased to announce the general availability of **Rocky Linux 9.9**. Updated installation media, container, cloud, development board, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. 
+The Rocky Linux team is pleased to announce the general availability of **Rocky Linux 9.9**. Updated installation media, container, cloud, development board, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage.
 
 ## Upgrading
 
@@ -130,6 +130,8 @@ Listed below are security-related highlights in the latest RL 9.9:
 
 As with any release, there are many known issues. Review the [upstream listing](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/9.9_release_notes/known-issues) for the complete details on these issues.
 
+- OpenZFS 2.2.x fails to build on CentOS Stream 9 kernel 5.14.0-756.el9.x86_64 due to incorrect dentry alias compatibility mapping. For more information, see open issue [#19369](https://github.com/openzfs/zfs/issues/19369)
+
 !!! info "Deprecated Software"
 
     Some Application Streams, which are part of the Rocky Linux 9.9 repositories, will not receive any further updates. This is a regular occurrence that happens with nearly every release. Please make sure that you are using the latest supported version of the software.
@@ -144,38 +146,26 @@ We extend our deepest thanks to the Rocky Linux project volunteers and leaders f
 
 Special thanks to the following contributors for their efforts in this release:
 
-- Alan Marshall (@alangm)
 - Alexey Melezhik (@melezhik)
-- Arian Acabrera (@acabrera)
 - Bob Robison (@grayeul)
-- Boris Reisig (@boris)
-- Brady Dibble (@bdibble-ciq)
 - Brian Clemens (@brian)
 - Bryan Zuelly (@codedude)
 - Chris Stackpole (@stack)
 - Fredrik Nystrom (@nscfreny)
-- Jason Rodriguez (@jrod)
-- Jim Baresich  (@jb2592)
+- Jeffrey Serio (@hyperreal)
 - Jonathan Dieter (@jdieter)
-- Joey Brinkman (@j0ey)
-- Ken Carlile
 - Howard Van Der Wal (@metalinux)
 - Gabriel Graves (@nebraskacoder)
 - Leigh Hennig (@leigh)
 - Lukas Magauer (@lumarel)
 - Michael Young (@elguero)
-- Mike Renfro (@mikerenfro)
 - Mustafa Gezen (@mustafa)
-- Nathan B (@kemotaha)
-- Ryan Smith (@rsmith)
-- Sam Thornton (@sthornton)
 - Scott Shinn (@atomicturtle)
 - Sherif Nagy (@sherif)
 - Skip Grube (@skip77)
 - Stephen Simpson (@ssimpson)
 - Steven Spencer (@sspencerwire)
 - Taylor Goodwill (@tgo)
-- Thomas Doczkal
 - Tuan Hoang (@tqhoang)
 - Trevor Cooper (@tcooper)
 - Wale Soyinka (@wale)
