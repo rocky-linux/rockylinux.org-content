@@ -70,15 +70,12 @@ The following changes may affect existing workflows. Review them before upgradin
 - **WEP is no longer supported.** The Wired Equivalent Privacy standard has been removed, including from the `wpa_supplicant` package. Remove any WEP-configured networks before upgrading and move to WPA2 or WPA3.
 - **The ZBUD compressed page allocator has been removed.** The kernel memory management core moves to upstream version 6.15, and ZSMALLOC is now the default zpool allocator for compressed swap.
 - **Grafana removes legacy alerting and AngularJS plugin support.** If you depend on either, review your dashboards before upgrading.
-- **`bootc-image-builder` is deprecated** in favor of image builder, though it remains supported for the lifetime of Rocky Linux 10.
-- **greenboot and the Rust FDO implementation are deprecated.** The Bash `greenboot` is replaced by `greenboot-rs`, and `fdo-rs` / `fido-device-onboard` are replaced by `go-fdo`. `bootc` images migrate to `greenboot-rs` automatically during upgrades.
 
 Some Application Streams in the Rocky Linux 10.3 repositories will receive no further updates. This happens with nearly every release, so check that you are running the latest supported version of the software you depend on.
 
 ## Known Issues
 
 - **`xxhash64` is marked as not FIPS-approved.** Storage volumes created with `dmsetup` or `integritysetup` using `xxhash64` become inaccessible in FIPS mode. It is not the default for either command, so volumes are unlikely to be affected unless it was chosen explicitly.
-- **The `lpfc` driver can cause a kernel panic on systems with Emulex Fibre Channel HBAs.** A reference count underflow triggers warnings or a panic under certain Storage Area Network topologies. Avoid running a Rocky Linux 10.1 or earlier kernel on affected hardware.
 - **Hostname resolution fails with encrypted DNS and a custom CA in boot options.** Define the installation source in the Kickstart file rather than on the kernel command line with `inst.repo=` or `inst.stage2=`.
 
 See the [Rocky Linux 10.3 Release Notes](https://docs.rockylinux.org/releases/release_notes/10_3/) for a complete list and explanation of known issues.
