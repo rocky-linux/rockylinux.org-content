@@ -1,12 +1,12 @@
 ---
 title: Rocky Linux 8.6 Available Now
 date: "2022-05-16"
-author: "Release Engineering Team"
+author: "Rocky Linux Team"
 ---
 
 We are pleased to announce the general availability of Rocky Linux 8.6. This
 release is available for the x86_64 and aarch64 architectures. Release notes
-are available in the [Rocky Linux Documentation](https://docs.rockylinux.org/release_notes/8_6) - These notes contain important
+are available in the [Rocky Linux Documentation](https://docs.rockylinux.org/releases/release_notes/8_6) - These notes contain important
 information including known bugs and more comprehensive details about changes
 in this version.
 

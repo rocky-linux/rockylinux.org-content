@@ -4,7 +4,7 @@ date: "2025-06-04"
 author: "Rocky Linux Team"
 ---
 
-We are pleased to announce the general availability of Rocky Linux 9.6. Updated installation media, container, cloud, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/release_notes/9_6/) published within [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and detailed changes in this version.
+We are pleased to announce the general availability of Rocky Linux 9.6. Updated installation media, container, cloud, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/releases/release_notes/9_6/) published within [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and detailed changes in this version.
 
 ## Highlights
 
@@ -35,7 +35,7 @@ We are pleased to announce the general availability of Rocky Linux 9.6. Updated 
 - A new image type is available in this release--Windows Subsystem for Linux (or WSL)-compatible container archives can be downloaded and run on a Windows 10 or Windows 11 system with ease.
 - Utilities for Oracle Cloud images have been updated to the most recent versions
 
-For a more complete explanation of updates and changes, please see the [Rocky Linux 9.6 Release Notes](https://docs.rockylinux.org/release_notes/9_6/).
+For a more complete explanation of updates and changes, please see the [Rocky Linux 9.6 Release Notes](https://docs.rockylinux.org/releases/release_notes/9_6/).
 
 ## Testing
 
@@ -56,7 +56,7 @@ Rocky Linux 9 does not offer an official upgrade path from any version of Rocky 
 - **Current ZFS module will not load** - The currently released `zfs` module from OpenZFS **will not load** on Rocky Linux 9.6. For those using `zfs` on 9.5 and planning to upgrade to 9.6, you should hold off for now. If you are planning a fresh install of 9.6 and use `zfs` then again, you should wait for the release of the updated module. You can follow the issue [here](https://github.com/openzfs/zfs/issues/17332) and [here](https://github.com/openzfs/zfs/issues/17364).
 - **SELinux issue on hosts with `passt` installed** - When using a workstation, server, or virtual host with a `passt` back end installed, the interface will fail to start if SELinux is enabled. See [this upstream issue](https://issues.redhat.com/browse/RHEL-80407) for more information.
 
-For a more complete list and explanation of known issues, please see the [Rocky Linux 9.6 Release Notes](https://docs.rockylinux.org/release_notes/9_6/).
+For a more complete list and explanation of known issues, please see the [Rocky Linux 9.6 Release Notes](https://docs.rockylinux.org/releases/release_notes/9_6/).
 
 ## Acknowledgements
 

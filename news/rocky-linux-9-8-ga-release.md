@@ -1,10 +1,10 @@
 ---
 title: Rocky Linux 9.8 Available Now
 date: "2026-05-27"
-author: "Brian Clemens"
+author: "Rocky Linux Team"
 ---
 
-We are pleased to announce the general availability of Rocky Linux 9.8. Updated installation media, container images, cloud images, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/release_notes/9_8/) published in the [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and detailed changes in this version.
+We are pleased to announce the general availability of Rocky Linux 9.8. Updated installation media, container images, cloud images, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/releases/release_notes/9_8/) published in the [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and detailed changes in this version.
 
 ## Highlights
 
@@ -47,7 +47,7 @@ We are pleased to announce the general availability of Rocky Linux 9.8. Updated 
 
 Image Builder now supports advanced disk partitioning for custom images, Kickstart file injection when building ISO images, and WSL2 image creation. System images such as AWS or KVM formats no longer include a separate `/boot` partition.
 
-For a more complete explanation of updates and changes, please see the [Rocky Linux 9.8 Release Notes](https://docs.rockylinux.org/release_notes/9_8/).
+For a more complete explanation of updates and changes, please see the [Rocky Linux 9.8 Release Notes](https://docs.rockylinux.org/releases/release_notes/9_8/).
 
 ## Testing
 

@@ -1,10 +1,10 @@
 ---
 title: Rocky Linux 9.4 Available Now
 date: "2024-05-09"
-author: "Release Engineering Team"
+author: "Rocky Linux Team"
 ---
 
-We are excited to announce the general availability of Rocky Linux 9.4. This release is now available for the x86_64, aarch64, ppc64le, and s390x architectures. Please consult the release notes on the [Rocky Linux Documentation](https://docs.rockylinux.org/release_notes/9_4) for important information, including known issues and detailed changes in this version.
+We are excited to announce the general availability of Rocky Linux 9.4. This release is now available for the x86_64, aarch64, ppc64le, and s390x architectures. Please consult the release notes on the [Rocky Linux Documentation](https://docs.rockylinux.org/releases/release_notes/9_4) for important information, including known issues and detailed changes in this version.
 
 ## Highlights
 
@@ -13,7 +13,7 @@ We are excited to announce the general availability of Rocky Linux 9.4. This rel
 - Since Rocky Linux 9.3, Azure images are be published under the new publisher name: `resf`, moving away from the earlier, less intuitive name.
 * In addition to the Azure Marketplace, Rocky Linux is available for free on the Azure Community Gallery, providing incredibly easy access to run Rocky on Microsoft Azure. Instructions on how to utilize the Community Gallery images can be found on this [news post](https://rockylinux.org/news/rocky-on-azure-community-gallery/).
 
-For a thorough list of updates and changes, refer to the [Rocky Linux 9.4 Release Notes](https://docs.rockylinux.org/release_notes/9_4).
+For a thorough list of updates and changes, refer to the [Rocky Linux 9.4 Release Notes](https://docs.rockylinux.org/releases/release_notes/9_4).
 
 ### Special Interest Group Notes
 

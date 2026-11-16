@@ -4,7 +4,7 @@ date: "2025-12-01"
 author: "Rocky Linux Team"
 ---
 
-We are pleased to announce the general availability of Rocky Linux 9.7. Updated installation media, container images, cloud images, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/release_notes/9_7/) published in the [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and detailed changes in this version.
+We are pleased to announce the general availability of Rocky Linux 9.7. Updated installation media, container images, cloud images, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/releases/release_notes/9_7/) published in the [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and detailed changes in this version.
 
 ## Highlights
 
@@ -44,7 +44,7 @@ This new release brings an improved UI style based on PatternFly 6.
 
 Image Builder is now able to create WSL2 and Vagrant (libvirt) images.
 
-For a more complete explanation of updates and changes, please see the [Rocky Linux 9.7 Release Notes](https://docs.rockylinux.org/release_notes/9_7/).
+For a more complete explanation of updates and changes, please see the [Rocky Linux 9.7 Release Notes](https://docs.rockylinux.org/releases/release_notes/9_7/).
 
 ## Testing
 

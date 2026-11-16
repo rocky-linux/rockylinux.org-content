@@ -1,10 +1,10 @@
 ---
 title: Rocky Linux 10.2 Available Now
 date: "2026-05-28"
-author: "Brian Clemens"
+author: "Rocky Linux Team"
 ---
 
-We are pleased to announce the general availability of **Rocky Linux 10.2**. Updated installation media, container, cloud, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/release_notes/10_2/) published within [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and a more detailed explanation of changes in this version.
+We are pleased to announce the general availability of **Rocky Linux 10.2**. Updated installation media, container, cloud, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/releases/release_notes/10_2/) published within [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and a more detailed explanation of changes in this version.
 
 ## What's in This Release
 
@@ -150,7 +150,7 @@ Users of other Enterprise Linux 10 based distributions may convert their install
 
 ## Known Issues
 
-See the [Rocky Linux 10.2 Release Notes](https://docs.rockylinux.org/release_notes/10_2/) for a complete list and explanation of known issues.
+See the [Rocky Linux 10.2 Release Notes](https://docs.rockylinux.org/releases/release_notes/10_2/) for a complete list and explanation of known issues.
 
 ## Acknowledgements
 
