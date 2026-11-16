@@ -69,7 +69,7 @@ Hat release notes for the matching version. Confirm that every URL resolves,
 especially the Testrarc book and the Mattermost playbook channel, which are
 created per release. Run `npm run validate` before opening the pull request.
 
-Three checks catch most errors:
+Four checks catch most errors:
 
 1. *Does Rocky actually ship it?* Upstream release notes describe things
    delivered through Red Hat's registry and subscription streams alongside
@@ -98,6 +98,15 @@ Three checks catch most errors:
    mislabeled copy of the release notes will quietly carry the previous
    version's content. If a section header names a different minor version than
    the document cover, stop and re-fetch rather than assuming an upstream typo.
+
+4. *Is it new in this release?* Upstream relists deprecations, Technology
+   Previews, and known issues in every subsequent release until they are
+   removed or fixed, and the "Major changes" summary describes the release's
+   current state rather than only what changed in it. Check which subsection an
+   item sits under: a heading such as "Deprecated features identified in RHEL
+   10.2" marks carry-over, and entry text often names the originating version
+   outright. For known issues, compare the fix version against the kernel or
+   package we actually ship; if we ship the fix, the issue is not ours.
 
 ---
 
