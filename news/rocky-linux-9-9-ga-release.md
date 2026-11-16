@@ -96,6 +96,7 @@ Special thanks to the following contributors for their efforts in this release:
 - Brian Clemens (@brian)
 - Bryan Zuelly (@codedude)
 - Chris Stackpole (@stack)
+- Erik C (@iamnoterik)
 - Fredrik Nystrom (@nscfreny)
 - Gregory Casey (@sil3nthawk)
 - Jeffrey Serio (@hyperreal)
