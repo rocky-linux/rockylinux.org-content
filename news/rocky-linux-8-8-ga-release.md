@@ -1,10 +1,10 @@
 ---
 title: Rocky Linux 8.8 Available Now
 date: "2023-05-20"
-author: "Release Engineering Team"
+author: "Rocky Linux Team"
 ---
 
-We are pleased to announce the general availability of Rocky Linux 8.8. This release is currently available for the x86-64 and aarch64 architectures. Please review the release notes in the [Rocky Linux Documentation](https://docs.rockylinux.org/release_notes/8_8) - These notes contain important information including known bugs and more comprehensive details about changes in this version.
+We are pleased to announce the general availability of Rocky Linux 8.8. This release is currently available for the x86-64 and aarch64 architectures. Please review the release notes in the [Rocky Linux Documentation](https://docs.rockylinux.org/releases/release_notes/8_8) - These notes contain important information including known bugs and more comprehensive details about changes in this version.
 
 ### Breaking Changes
 
@@ -25,7 +25,7 @@ We are pleased to announce the general availability of Rocky Linux 8.8. This rel
 - FIPS mode settings in the kernel have been adjusted to conform to the Federal Information Processing Standard (FIPS) 140-3.
 - Podman's [Quadlet](https://www.redhat.com/sysadmin/quadlet-podman) feature is now available.
 
-A more complete list of new features and changes is available in the [Rocky Linux 8.8 Release Notes](https://docs.rockylinux.org/release_notes/8_8)
+A more complete list of new features and changes is available in the [Rocky Linux 8.8 Release Notes](https://docs.rockylinux.org/releases/release_notes/8_8)
 
 ### Testing
 

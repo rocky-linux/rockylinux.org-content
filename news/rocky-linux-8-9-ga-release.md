@@ -1,10 +1,10 @@
 ---
 title: Rocky Linux 8.9 Available Now
 date: "2023-11-22"
-author: "Release Engineering Team"
+author: "Rocky Linux Team"
 ---
 
-We are pleased to announce the general availability of Rocky Linux 8.9. This release is currently available for the x86-64 and aarch64 architectures. Please review the release notes in the [Rocky Linux Documentation](https://docs.rockylinux.org/release_notes/8_9) - These notes contain important information including known bugs and more comprehensive details about changes in this version.
+We are pleased to announce the general availability of Rocky Linux 8.9. This release is currently available for the x86-64 and aarch64 architectures. Please review the release notes in the [Rocky Linux Documentation](https://docs.rockylinux.org/releases/release_notes/8_9) - These notes contain important information including known bugs and more comprehensive details about changes in this version.
 
 ## Important Notices
 
@@ -22,7 +22,7 @@ We are pleased to announce the general availability of Rocky Linux 8.9. This rel
 - Node.js 20 is now available as a new module stream
 - gcc-toolset-13 was introduced as a new compiler toolset
 
-A more complete list of new features and changes is available in the [Rocky Linux 8.9 Release Notes](https://docs.rockylinux.org/release_notes/8_9)
+A more complete list of new features and changes is available in the [Rocky Linux 8.9 Release Notes](https://docs.rockylinux.org/releases/release_notes/8_9)
 
 ### Special Interest Group Notes
 

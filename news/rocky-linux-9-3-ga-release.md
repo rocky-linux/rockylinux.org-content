@@ -1,10 +1,10 @@
 ---
 title: Rocky Linux 9.3 Available Now
 date: "2023-11-20"
-author: "Release Engineering Team"
+author: "Rocky Linux Team"
 ---
 
-We are pleased to announce the general availability of Rocky Linux 9.3. This release is currently available for the x86-64, aarch64, ppc64le, and s390x architectures. Please review the release notes in the [Rocky Linux Documentation](https://docs.rockylinux.org/release_notes/9_3) - These notes contain important information including known bugs and more comprehensive details about changes in this version.
+We are pleased to announce the general availability of Rocky Linux 9.3. This release is currently available for the x86-64, aarch64, ppc64le, and s390x architectures. Please review the release notes in the [Rocky Linux Documentation](https://docs.rockylinux.org/releases/release_notes/9_3) - These notes contain important information including known bugs and more comprehensive details about changes in this version.
 
 ## Important Notices
 
@@ -23,7 +23,7 @@ We are pleased to announce the general availability of Rocky Linux 9.3. This rel
 - A new `kernel-uki` package was introduced as a Technology Preview, providing a Unified Kernel Image variant for booting. This UKI image is signed with its own SecureBoot key.
 - java-21-openjdk was introduced providing a new version of Java
 
-A more complete list of new features and changes is available in the [Rocky Linux 9.3 Release Notes](https://docs.rockylinux.org/release_notes/9_3)
+A more complete list of new features and changes is available in the [Rocky Linux 9.3 Release Notes](https://docs.rockylinux.org/releases/release_notes/9_3)
 
 ### Special Interest Group Notes
 

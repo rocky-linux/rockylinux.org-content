@@ -1,10 +1,10 @@
 ---
 title: Rocky Linux 10.1 Available Now
 date: "2025-11-25"
-author: "Brian Clemens"
+author: "Rocky Linux Team"
 ---
 
-We are pleased to announce the general availability of **Rocky Linux 10.1**. Updated installation media, container, cloud, development board, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/release_notes/10_1/) published within [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and a more detailed explanation of changes in this version.
+We are pleased to announce the general availability of **Rocky Linux 10.1**. Updated installation media, container, cloud, development board, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/releases/release_notes/10_1/) published within [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and a more detailed explanation of changes in this version.
 
 ## Notable New Features and Changes
 
@@ -60,7 +60,7 @@ Users of other Enterprise Linux 10 based distributions may convert their install
 
 - **RISC-V Kernel 6.12.0-124.8.1** - We observed issues with the kernel 6.12.0-124.8.1 on some RISC-V systems during our testing. RISC-V is currently a Rocky Linux secondary architecture, thus the issues are not considered release-blocking. RISC-V users are advised not to upgrade the kernel yet except for development and testing purposes. Users may upgrade with `dnf upgrade --exclude='kernel*' --exclude='kmod*'` to temporarily avoid upgrading the kernel.
 
-See the [Rocky Linux 10.1 Release Notes](https://docs.rockylinux.org/release_notes/10_1/) for a more complete list and explanation of known issues.
+See the [Rocky Linux 10.1 Release Notes](https://docs.rockylinux.org/releases/release_notes/10_1/) for a more complete list and explanation of known issues.
 
 ## Acknowledgements
 

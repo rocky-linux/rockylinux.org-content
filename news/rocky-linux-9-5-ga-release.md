@@ -6,7 +6,7 @@ author: "Rocky Linux Team"
 
 ![Rocky Linux 9.5 Available Now](/images/news/rocky-linux-9-5-ga-release-header.png)
 
-We are pleased to announce the general availability of Rocky Linux 9.5. Updated installation media, container, cloud, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/release_notes/9_5/) published within [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and detailed changes in this version.
+We are pleased to announce the general availability of Rocky Linux 9.5. Updated installation media, container, cloud, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/releases/release_notes/9_5/) published within [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and detailed changes in this version.
 
 ## Highlights
 
@@ -39,7 +39,7 @@ We are pleased to announce the general availability of Rocky Linux 9.5. Updated 
 
 - **SIG/Cloud:** Images are now built with OpenSUSE's appliance builder [KIWI](https://github.com/OSInside/kiwi/) and [Empanadas](https://git.resf.org/sig_core/toolkit), the Rocky Linux Release Engineering toolkit.
 
-For a more complete explanation of updates and changes, please see the [Rocky Linux 9.5 Release Notes](https://docs.rockylinux.org/release_notes/9_5/).
+For a more complete explanation of updates and changes, please see the [Rocky Linux 9.5 Release Notes](https://docs.rockylinux.org/releases/release_notes/9_5/).
 
 ## Testing
 
@@ -59,7 +59,7 @@ Rocky Linux 9 does not offer an official upgrade path from any version of Rocky 
 
 - **Anaconda** - Currently the help buttons when clicked in Anaconda may show blank pages in specific environments (eg. QEMU w/ virtio-vga).
 
-For a more complete list and explanation of known issues, please see the [Rocky Linux 9.5 Release Notes](https://docs.rockylinux.org/release_notes/9_5/).
+For a more complete list and explanation of known issues, please see the [Rocky Linux 9.5 Release Notes](https://docs.rockylinux.org/releases/release_notes/9_5/).
 
 ## Acknowledgements
 
