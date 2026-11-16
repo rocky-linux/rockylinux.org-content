@@ -61,6 +61,7 @@ Some Application Streams in the Rocky Linux 9.9 repositories will receive no fur
 
 - **ZFS 2.2.11 does not work on Rocky Linux 9.9.** Testing found that ZFS 2.4.4 works correctly. If you run ZFS, upgrade the module before upgrading the OS. The upstream bug is [openzfs/zfs#19369](https://github.com/openzfs/zfs/issues/19369).
 - **RPM packages signed with MLDSA-87 fail to install in FIPS mode.** Post-quantum algorithms are not FIPS-validated and are absent from the FIPS provider, so importing MLDSA-87 keys into the RPM database and verifying PQC signatures both fail. Leave the DNF plugin for PQC signature support disabled in FIPS mode, and the system falls back to verifying packages with classical signatures.
+- **fwupd EFI capsule doesn't work.** This is a known upstream problem, see https://redhat.atlassian.net/browse/RHEL-300815 and https://redhat.atlassian.net/browse/RHEL-305227.  This will be fixed when upstream gets the fixes into 9.9.
 
 For the complete list, see the [Rocky Linux 9.9 Release Notes](https://docs.rockylinux.org/releases/release_notes/9_9/) and the [upstream known issues](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/9.9_release_notes/known-issues).
 
