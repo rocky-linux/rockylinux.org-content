@@ -6,7 +6,7 @@ author: "Rocky Linux Team"
 
 We are pleased to announce the general availability of Rocky Linux 10.3. Updated installation media, container images, cloud images, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/releases/release_notes/10_3/) published in the [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and detailed changes in this version.
 
-Rocky Linux 10.3 ships with kernel 6.12.0-264.16.1 and is available for x86-64-v3, aarch64, ppc64le (POWER10 and later), and s390x (IBM z15 and later).
+Rocky Linux 10.3 ships with kernel 6.12.0-264.16.1 and is available for x86-64-v3, aarch64, riscv64, ppc64le (POWER10 and later), and s390x (IBM z15 and later).
 
 Rocky Linux 10 requires the x86-64-v3 microarchitecture level on 64-bit AMD and Intel systems, so hardware at x86-64-v2 and earlier is not supported. If you are unsure whether your CPU qualifies, follow the [CPU compatibility check](https://docs.rockylinux.org/gemstones/test_cpu_compat/) before installing or upgrading.
 
