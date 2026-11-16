@@ -6,7 +6,7 @@ author: "Rocky Linux Team"
 
 We are pleased to announce the general availability of Rocky Linux 9.9. Updated installation media, container images, cloud images, and live images are available from the [Rocky Linux Downloads](https://rockylinux.org/download) webpage. Please consult the [release notes](https://docs.rockylinux.org/releases/release_notes/9_9/) published in the [Rocky Linux Documentation](https://docs.rockylinux.org/) for important information, such as known issues and detailed changes in this version.
 
-Rocky Linux 9.9 ships with kernel 5.14.0-687.5.3 and is available for x86-64-v2, aarch64, ppc64le, and s390x.
+Rocky Linux 9.9 ships with kernel 5.14.0-741.22.1 and is available for x86-64-v2, aarch64, ppc64le, and s390x.
 
 ## Highlights
 

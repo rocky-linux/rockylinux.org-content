@@ -69,6 +69,36 @@ Hat release notes for the matching version. Confirm that every URL resolves,
 especially the Testrarc book and the Mattermost playbook channel, which are
 created per release. Run `npm run validate` before opening the pull request.
 
+Three checks catch most errors:
+
+1. *Does Rocky actually ship it?* Upstream release notes describe things
+   delivered through Red Hat's registry and subscription streams alongside
+   ordinary code changes, and not all of them have a Rocky counterpart.
+
+   Rocky publishes base container images, including `ubi`, `ubi-init`, and
+   `ubi-micro` variants, on the `rockylinux/rockylinux` Docker Hub repository.
+   It does not publish the per-application images upstream ships for MySQL,
+   Python, Node.js, PHP, and similar, so upstream notes announcing or
+   deprecating those do not apply to us.
+
+   Kernel live patching is a similar case: `kpatch` and `kpatch-dnf` are
+   packaged, but the `kpatch-patch` RPMs that carry the actual patches come
+   from a Red Hat subscription stream and are not in the Rocky repositories.
+
+   Check the relevant repository or registry before announcing a feature.
+
+2. *Are the versions the ones we ship?* Quote versions from the repositories at
+   `https://dl.rockylinux.org/pub/rocky/<version>/`, not from upstream release
+   notes. The kernel in particular is usually newer than the version upstream
+   documents at GA, because z-stream updates land between the upstream freeze
+   and our release. Rocky 9.9 shipped 5.14.0-741.22.1 where the upstream notes
+   said 5.14.0-687.5.3.
+
+3. *Is the source document complete and for the right release?* A truncated or
+   mislabeled copy of the release notes will quietly carry the previous
+   version's content. If a section header names a different minor version than
+   the document cover, stop and re-fetch rather than assuming an upstream typo.
+
 ---
 
 ```markdown
