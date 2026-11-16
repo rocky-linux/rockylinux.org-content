@@ -152,6 +152,7 @@ Special thanks to the following contributors for their efforts in this release:
 - Bryan Zuelly (@codedude)
 - Chris Stackpole (@stack)
 - Fredrik Nystrom (@nscfreny)
+- Gregory Case (@sil3nthawk)
 - Jeffrey Serio (@hyperreal)
 - Jonathan Dieter (@jdieter)
 - Howard Van Der Wal (@metalinux)
