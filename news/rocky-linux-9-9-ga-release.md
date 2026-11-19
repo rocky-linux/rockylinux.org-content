@@ -1,6 +1,6 @@
 ---
 title: "Rocky Linux 9.9 Available Now"
-date: "2026-11-15"
+date: "2026-11-16"
 author: "Rocky Linux Team"
 ---
 
